@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "graph_consumer_health"
+version = "0.1.0"
+description = "Synthesizing data for graph consumer health product testing."
+authors = ["kmvoorhees <micha.voorhees@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.3"
+pandas = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

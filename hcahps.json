@@ -1,0 +1,99 @@
+{
+    "nurse_respect": {
+        "question_text": "During this hospital stay, how often did nurses treat you with courtesy and respect?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.007, .048, .113, .831]
+    },
+    "nurse_listen": {
+        "question_text": "During this hospital stay, how often did nurses listen carefully to you?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.014, .073, .180, .734]
+    },
+    "nurse_explain": {
+        "question_text": "During this hospital stay, how often did nurses explain things in a way you could understand?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.021, .071, .189, 719]
+    },
+    "call_button": {
+        "question_text": "During this hospital stay, after you pressed the call button, how often did you get help as soon as you wanted it?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.028, .124, .278, .569]
+    },
+    "doctor_respect": {
+        "question_text": "During this hospital stay, did doctors treat you with courtesy and respect?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": []
+    },
+    "doctor_listen": {
+        "question_text": "During this hospital stay, how often did doctors listen carefully to you?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": []
+    },
+    "doctors_explain": {
+        "question_text": "During this hospital stay, how often did doctors explain things in a way you could understand?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": []
+    },
+    "room_clean": {
+        "question_text": "During this hospital stay, how often were your room and bathroom kept clean?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.061, .116, .192, .631]
+    },
+    "room_quiet": {
+        "question_text": "During this hospital stay, how often was the area around your room quiet at night?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.033. 0.095, .279, .593]
+    },
+    "bathroom_help": {
+        "question_text": "How often did you get help in getting to the bathroom or in using the bedpan as soon as you wanted it?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.045, .116, .221, 618]
+    },
+    "medicine_for": {
+        "question_text": "Before giving you any new medicine, how often did hospital staff tell you want the medicine was for?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.234, .121, .189, .456]
+    },
+    "medicine_side_effects": {
+        "question_text": "Before giving you any new medicine, how often did hospital staff describe possible side effects in a way you could understand?",
+        "responses": ["Never", "Sometimes", "Usually", "Always"],
+        "base_prob": [.042, .082, .149, .727]
+    },
+    "discharge_help": {
+        "question_text": "During this hospital stay, did doctors, nurses or other hospital staff talk with you about whether you would have the help you needed when you left the hospital?",
+        "responses": ["No", "Yes"],
+        "base_prob": [.167, .833]
+    },
+    "discharge_symptoms": {
+        "question_text": "During this hospital stay, did you get information in writing about what symptoms or health problems to look out for after you left the hospital?",
+        "responses": ["No", "Yes"],
+        "base_prob": [.132, .868]
+    },
+    "rating": {
+        "question_text": "Using any number from 0 to 10, where 0 is the worst hospital possible and 10 is the best hospital possible, what number would you use to rate this hospital during your stay?",
+        "responses": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "base_prob": [.017, .009, .011, .017. .018, .044, .031, .068, .160,
+        .199, .424]
+    },
+    "recommendation": {
+        "question_text": "Would you recommend this hospital to your friends and family?",
+        "responses": ["Definitely no", "Probably no", "Probably yes", "Definitely yes"],
+        "base_prob": [.045, .058, .274, .623]
+    },
+    "preferences_considered": {
+        "question_text": "During this hospital stay, staff took my preferences and those of my family or caregiver into account in deciding what my health care needs would be when I left.",
+        "responses": ["Strongly disagree", "Disagree", "Agree", "Strongly agree"],
+        "base_prob": [.030, .064, .500, .406]
+    },
+    "understand_responsibilities": {
+        "question_text": "When I left the hospital, I had a good understanding of the things I was responsible for in managing my health.",
+        "responses": ["Strongly disagree", "Disagree", "Agree", "Strongly agree"],
+        "base_prob": [.025, .047, .467, .462]
+    },   
+    "understand_meds": {
+        "question_text": "When I left the hospital, I clearly understood the purpose of taking each of my medications.",
+        "responses": ["Strongly disagree", "Disagree", "Agree", "Strongly agree"],
+        "base_prob": [.018, .029, .350, .464]
+    }   
+}
+
